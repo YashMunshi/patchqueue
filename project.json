@@ -1,0 +1,18 @@
+{
+  "slug": "patchqueue",
+  "name": "PatchQueue",
+  "field": "Security automation & tooling",
+  "roles": "Security Automation Engineer \u00b7 Security Tools Engineer",
+  "headline": "Turn scan noise into a fix queue.",
+  "description": "Deduplicate supplied findings, propose exact version updates, and track rescan evidence.",
+  "accent": "#8b4c26",
+  "pale": "#f3eade",
+  "display": "Space Grotesk",
+  "action": "Assemble remediation queue",
+  "guide": [
+    "Run the bundled scan. Four records become three distinct remediation items.",
+    "Select a fixed version in candidates. The item remains a proposal until rescan evidence is supplied.",
+    "Import a normalized complete rescan and inspect which advisories are absent. The tool never treats a version change alone as proof."
+  ],
+  "limits": "Bundled package names and advisories are fictional. Version comparison supports stable exact versions only. No PR, dependency change, or scanner execution happens automatically."
+}
