@@ -40,9 +40,7 @@ node run.mjs input.json
 - Guided controls plus editable/importable JSON input (maximum 1 MB).
 - Computed decisions, supporting records, explicit empty/error states, and
   downloadable evidence containing the input and limitations.
-- Self-hosted Space Grotesk headings and DM Sans text; 18px body text,
-  16px supporting text, 15px technical labels, keyboard focus, reduced motion,
-  and responsive evidence rows.
+- Individual visual identity: Industrial work-order desk, with self-hosted DejaVu Sans Condensed and IBM Plex Sans, a custom masthead, readable type, visible keyboard focus, and responsive data views.
 - Independent boundary and regression tests in `tests/`.
 
 ## Scope and limitations
@@ -105,3 +103,7 @@ disabled, run npm audit, and commit. Add `--publish` as well to push that branch
 and open a PR using your own authenticated `gh` CLI. The working tree must be
 clean. It does not merge changes or claim compatibility. This external proposal
 workflow was not executed against a real repository during this build.
+
+## Visual identity
+
+See [DESIGN.md](DESIGN.md) for this project’s typography, palette, header, and composition.
