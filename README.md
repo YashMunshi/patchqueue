@@ -4,7 +4,11 @@ Deduplicate supplied findings, propose exact version updates, and track rescan e
 
 **Field:** Security automation & tooling  
 **Relevant roles:** Security Automation Engineer · Security Tools Engineer  
-**Status:** working prototype; hosting status is tracked separately.
+**Status:** working prototype, published on GitHub and Vercel.
+
+[**Open the live interactive lab**](https://patchqueue.vercel.app/)
+
+The hosted lab runs synthetic exercises in your browser. See the scope below for local integration exercises and limitations.
 
 ## Run
 
